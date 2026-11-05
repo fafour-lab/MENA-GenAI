@@ -122,6 +122,8 @@ Select **Title, abstract, keywords** for each box and connect the four boxes usi
 
 The searches identified **2,271 records**. Removing **50 duplicates** left **2,221 records** for screening. Of these, **2,016 were excluded**, leaving **205 papers** for analysis.
 
+![PRISMA study selection: 2,271 identified, 50 duplicates removed, 2,221 screened, 2,016 excluded, and 205 included.](prisma-flow.png)
+
 ```mermaid
 flowchart TD
     A["Records identified from databases<br/>n = 2,271<br/><br/>ACM Digital Library: 568<br/>IEEE Xplore: 701<br/>Scopus: 186<br/>SpringerLink: 816"]
