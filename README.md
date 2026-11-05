@@ -124,24 +124,6 @@ The searches identified **2,271 records**. Removing **50 duplicates** left **2,2
 
 ![PRISMA study selection: 2,271 identified, 50 duplicates removed, 2,221 screened, 2,016 excluded, and 205 included.](prisma-flow.png)
 
-```mermaid
-flowchart TD
-    A["Records identified from databases<br/>n = 2,271<br/><br/>ACM Digital Library: 568<br/>IEEE Xplore: 701<br/>Scopus: 186<br/>SpringerLink: 816"]
-    D["Duplicate records removed<br/>n = 50"]
-    S["Records screened<br/>n = 2,221"]
-    E["Records excluded<br/>n = 2,016<br/><br/>Non-research publications: 102<br/>Unrelated to higher education: 1,389<br/>Not addressing generative AI: 110<br/>Outside the MENA region: 376<br/>Literature reviews: 39"]
-    I["Papers included in the review<br/>n = 205"]
-
-    A --> S
-    A --> D
-    S --> I
-    S --> E
-
-    style I fill:#eaf2f8,stroke:#243746,stroke-width:2px
-```
-
-Adapted from the [PRISMA 2020 flow diagram](https://www.prisma-statement.org/prisma-2020-flow-diagram). Screening counts are reported in aggregate; separate title/abstract and full-text screening counts are not available.
-
 ### Data extraction and synthesis
 
 Each paper was characterized by its geographical and educational context, discipline, GenAI tools and applications, research design, participants, findings, barriers, enablers, future research directions, and impact/evidence.
